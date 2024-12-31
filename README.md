@@ -36,6 +36,13 @@ We have performed the following steps in this project:
 
 - The RandomForest model achieved an accuracy of 0.82 on the test set.
 - The most important features identified by the model include Academic Pressure, Work Pressure, CGPA, and Study Satisfaction.
+- The XGBoost model achieved an accuracy of 0.82 on the test set after hyperparameter tuning.
+- Best hyperparameters for XGBoost: {'subsample': 0.8, 'n_estimators': 200, 'max_depth': 3, 'learning_rate': 0.1, 'colsample_bytree': 0.8}
+- Correlation coefficients:
+  - CGPA vs Depression: 0.022
+  - Age vs Depression: -0.226
+  - Financial Stress vs Depression: 0.364
+  - Work/Study Hours vs Depression: 0.209
 
 ## Next Steps
 
